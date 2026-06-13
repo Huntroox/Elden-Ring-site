@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring - Gallery</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body class="home-page">
+    <header id="cabecalho">
+        <div class="container-header">
+            <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+            <img src="../images/ImgLogin/Logo.png" alt="Logo Elden" class="logo-header">
+            <nav id="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="bosses.html">Bosses</a></li>
+                    <li><a href="lore.html">Lore</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="https://en.bandainamcoent.eu/elden-ring/elden-ring" target="_blank">Site Oficial</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="gallery-page">
+        <div class="pagina-topo">
+            <span class="secao-label">ELDEN RING GALLERY</span>
+            <h1>As Terras Intermédias</h1>
+            <p>Um reino fragmentado pela Ruptura, onde o destino dos Maculados aguarda ser reescrito.</p>
+        </div>
+        <div class="reinos-grid">
+
+            <div class="gallery-card">
+                <img src="../images/ImgGallery/Photo-1.webp" alt="Erdtree" class="gallery-img"
+                    onclick="abrirModal(this.src)">
+                <div class="gallery-info">
+                    <h3>Erdtree</h3>
+                    <p>A majestosa Árvore Áurea ilumina as Terras Intermédias.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="../images/ImgGallery/Photo-2.jpeg" alt="Ruínas Antigas" class="gallery-img"
+                    onclick="abrirModal(this.src)">
+                <div class="gallery-info">
+                    <h3>Ruínas Antigas</h3>
+                    <p>Vestígios de um reino esquecido sob a luz da Erdtree.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="../images/ImgGallery/Photo-3.jpg" alt="Jarburg" class="gallery-img"
+                    onclick="abrirModal(this.src)">
+                <div class="gallery-info">
+                    <h3>Jarburg</h3>
+                    <p>Um refúgio pacífico escondido entre flores e ruínas.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="../images/ImgGallery/Photo-4.jpg" alt="Exploração" class="gallery-img"
+                    onclick="abrirModal(this.src)">
+                <div class="gallery-info">
+                    <h3>Exploração</h3>
+                    <p>Um Maculado atravessa as vastas terras em busca do destino.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="../images/ImgGallery/Photo-5.jpeg" alt="Apocalipse" class="gallery-img"
+                    onclick="abrirModal(this.src)">
+                <div class="gallery-info">
+                    <h3>Apocalipse</h3>
+                    <p>O momento apocalíptico da Chama Frenética na Erdtree, com o céu derretendo em um turbilhão de
+                        fogo dourado e caos.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="../images/ImgGallery/Photo-6.jpeg" alt="Reino Estelar" class="gallery-img"
+                    onclick="abrirModal(this.src)">
+                <div class="gallery-info">
+                    <h3>Reino Estelar</h3>
+                    <p>O mistério cósmico que aguarda além das estrelas.</p>
+                </div>
+            </div>
+
+            <div id="modal" class="modal" onclick="fecharModal()">
+                <img id="imgModal" class="modal-content">
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="../plugins/script.js"></script>
+    
+    <footer id="rodape">
+        <span>
+            Site desenvolvido na disciplina de Introdução à Tecnologia Web <br>
+            Curso de Sistemas de Informação - UniRios<br>
+            Nome: Antônio Guilherme Belém de Oliveira - GitHub:
+            <a href="https://github.com/Huntroox" target="_blank">Huntroox</a>
+        </span>
+    </footer>
+
+</body>
+
+</html>
